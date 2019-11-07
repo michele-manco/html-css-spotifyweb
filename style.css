@@ -17,7 +17,8 @@ body{
   content:"";
 }
 .container{
-  background-color: yellow;
+  background-color:rgba(35, 66, 255, 0.52);
+
   width: calc(100% - 170px);
   height: 660px;
   margin: 0 auto;
@@ -33,7 +34,7 @@ main{
 .aside{
   width: 170px;
   height: calc(100vh - 80px);
-  background-color: #050505;
+  background-color: rgba(5,5,5,0.9);
   float: left;
   display:inline-block;
 }
@@ -41,15 +42,17 @@ main{
 .logo{
   color: white;
   margin: 25px;
-  padding-top: 20px;
+  margin-left: 10px;
 }
 .logo i{
   margin: 0 5px;
+  display: inline-block;
 
 }
 .logo h2::after{
   content: "\00a9";
   font-size: 9px;
+  padding-bottom: 10px;
 }
 .logo h2{
   display: inline;
@@ -68,5 +71,107 @@ main{
 
 }
 .player img{
-  height: 70px;
+  height: 60px;
+  margin: 10px;
+  display: inline;
+}
+.name::after{
+  content: "\2661"
+  color:white;
+}
+.name{
+  display: inline-block;
+
+}
+.name h4{
+  color:white;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.name p{
+  color: grey;
+  margin: 20px;
+}
+.menuleft a:hover{
+  color: white;
+}
+.menuleft{
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.menuleft li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.menuleft i:hover{
+  color: white;
+}
+.menuleft i{
+  color: grey;
+  margin: 10px;
+}
+.recent{
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+.recent li:hover{
+  color: white;
+}
+.recent li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    margin: 10px;
+}
+.upper{
+  text-transform: uppercase;
+
+}
+.recent i:hover{
+  color: white;
+}
+.recent i{
+  color: grey;
+}
+.play hr{
+  color: grey;
+  margin:30px 0px;
+}
+.play a{
+  font-size: 12px;
+  text-decoration: none;
+  color: grey;
+}
+.play i{
+  color: grey;
+  margin-left: 10px;
+}
+.bar{
+  height:600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.high{
+  height: 80px;
+  width: 1255px;
+  flex-direction: row;
+  justify-content: flex-end;
+
+
+}
+.high ul{
+  list-style-type: none;
+  line-height: 80px;
+}
+.high li a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin: 10px;
+  text-transform: uppercase;
+  float: left;
+
+
 }
