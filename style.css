@@ -156,8 +156,9 @@ main{
 .high{
   height: 80px;
   width: 1255px;
-  flex-direction: row;
-  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 
 }
