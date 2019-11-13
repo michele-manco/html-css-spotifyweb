@@ -155,24 +155,29 @@ main{
 }
 .high{
   height: 80px;
-  width: 1255px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 100%;
+
+
+
 
 
 }
 .high ul{
   list-style-type: none;
   line-height: 80px;
+  display: flex;
+  justify-content: center;
 }
 .high li a{
   text-decoration: none;
   color: white;
-  font-size: 12px;
-  margin: 10px;
+  font-size: 14px;
+  margin: 5px;
   text-transform: uppercase;
   float: left;
-
-
+  padding-right: 30px;
+}
+#gree{
+  border-bottom: 1px solid green;
+  border-bottom-width: 1px;
 }
