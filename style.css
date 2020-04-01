@@ -241,6 +241,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352a09', end
   flex-direction: column;
   justify-content: center;
 }
+.slidecontainer  p{
+  color: white;
+}
 .iconz{
   display: flex;
   justify-content: space-between;
