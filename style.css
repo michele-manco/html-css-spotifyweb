@@ -88,16 +88,26 @@ main{
 }
 .name{
   display: inline-block;
+  width: 270px;
+
+}
+.name img{
+  float:left;
 
 }
 .name h4{
   color:white;
   font-weight: normal;
   margin-bottom: 10px;
+  margin-top: 12px;
+  margin-left: 88px;
+
 }
 .name p{
   color: grey;
   margin: 20px;
+  margin-left: 100px;
+
 }
 .menuleft a:hover{
   color: white;
@@ -163,6 +173,19 @@ main{
 .high{
   height: 80px;
   width: 100%;
+  /* position: fixed;
+left: 0;
+right: 0;
+z-index: 10; */
+/* background-color:background: rgba(53,42,9,1);
+background: -moz-linear-gradient(top, rgba(53,42,9,1) 0%, rgba(55,44,9,1) 1%, rgba(214,214,41,1) 87%, rgba(214,214,41,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(53,42,9,1)), color-stop(1%, rgba(55,44,9,1)), color-stop(87%, rgba(214,214,41,1)), color-stop(100%, rgba(214,214,41,1)));
+background: -webkit-linear-gradient(top, rgba(53,42,9,1) 0%, rgba(55,44,9,1) 1%, rgba(214,214,41,1) 87%, rgba(214,214,41,1) 100%);
+background: -o-linear-gradient(top, rgba(53,42,9,1) 0%, rgba(55,44,9,1) 1%, rgba(214,214,41,1) 87%, rgba(214,214,41,1) 100%);
+background: -ms-linear-gradient(top, rgba(53,42,9,1) 0%, rgba(55,44,9,1) 1%, rgba(214,214,41,1) 87%, rgba(214,214,41,1) 100%);
+background: linear-gradient(to bottom, rgba(53,42,9,1) 0%, rgba(55,44,9,1) 1%, rgba(214,214,41,1) 87%, rgba(214,214,41,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352a09', endColorstr='#d6d629', GradientType=0 ); */
+
 
 
 
@@ -214,6 +237,18 @@ main{
   display: flex;
   justify-content: center;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.iconz{
+  display: flex;
+  justify-content: space-between;
+  width: 398px;
+  margin-left: 300px;
+  color: white;
+  margin-bottom: 20px;
+
 }
 
 .slider {
@@ -226,6 +261,7 @@ main{
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
+  margin-left: 151px;
 }
 
 .slider::-webkit-slider-thumb {
@@ -236,6 +272,7 @@ main{
   border-radius: 50%;
   background: white;
   cursor: pointer;
+
 }
 
 .slider::-moz-range-thumb {
